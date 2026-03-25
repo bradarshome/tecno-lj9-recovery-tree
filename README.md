@@ -23,4 +23,4 @@ mka vendorbootimage
 
 ## Maintainer
 
-[BradarsGang](https://github.com/andrei0514)
+[BradarsGang](https://github.com/bradarshome)

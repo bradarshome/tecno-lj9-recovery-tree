@@ -13,8 +13,8 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Product Specifics
 PRODUCT_NAME := fox_mgvi_64_64only_armv82
 PRODUCT_DEVICE := mgvi_64_64only_armv82
-PRODUCT_BRAND := Alps
+PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO LJ9
-PRODUCT_MANUFACTURER := ALPS
+PRODUCT_MANUFACTURER := TECNO
 
-PRODUCT_GMS_CLIENTID_BASE := android-alps
+PRODUCT_GMS_CLIENTID_BASE := android-tecno

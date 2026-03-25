@@ -24,8 +24,6 @@ AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
-    lk \
-    odm \
     odm_dlkm \
     product \
     system \
@@ -59,7 +57,6 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # API
 PRODUCT_SHIPPING_API_LEVEL := 34
-PRODUCT_TARGET_VNDK_VERSION := 34
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
@@ -74,7 +71,7 @@ PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
     fastbootd
 
-# Health Hal
+# Health HAL
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
     android.hardware.health@2.1-service
@@ -83,7 +80,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1
 
-# Keystore Hal
+# Keystore HAL
 PRODUCT_PACKAGES += \
     android.system.keystore2
 

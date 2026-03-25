@@ -1,0 +1,5 @@
+# TWRP flags
+twrp_action_complete_timeout_secs=60
+twrp_background_thread_cpu_affinity=2
+twrp_use_nano=1
+twrp_force_use_mke2fs=1
